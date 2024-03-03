@@ -1,4 +1,4 @@
-# Course Information Update
+# System Information
 
 This Python script is designed to update course information in a Google Sheets spreadsheet. It allows users to input the name of a course, the total number of hours for the course, and the number of hours they plan to study per week. The script then updates the Google Sheets spreadsheet with this information and provides an estimate of the time required to complete all courses based on the user's study schedule.
 
