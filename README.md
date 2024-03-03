@@ -14,7 +14,7 @@ To use this script, you'll need to have Python installed on your machine. You'll
 ### Installing
 
 1. Clone the repository to your local machine:
-git clone https://github.com/your_username/course-information-update.git
+git clone https://github.com/felipesimao1/Study_Calc_GSheet.git
 
 2. Install the required Python packages:
 pip install gspread oauth2client
