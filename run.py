@@ -18,9 +18,9 @@ def get_user_data():
     """
     print("Please enter course information:")
     
-    course_name = str(input("Insert the name of the course: "))
-    course_hours = int(input("Insert the total hours of the course: "))
-    hours_study_per_week = int(input("How many hours do you want to study per week? "))
+    course_name = str(input("Insert the name of the course:\n"))
+    course_hours = int(input("Insert the total hours of the course:\n "))
+    hours_study_per_week = int(input("How many hours do you want to study per week?\n"))
     
     return course_name, course_hours, hours_study_per_week
 

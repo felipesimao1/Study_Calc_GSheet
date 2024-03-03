@@ -1,32 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Course Information Update
 
-Welcome,
+This Python script is designed to update course information in a Google Sheets spreadsheet. It allows users to input the name of a course, the total number of hours for the course, and the number of hours they plan to study per week. The script then updates the Google Sheets spreadsheet with this information and provides an estimate of the time required to complete all courses based on the user's study schedule.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+## Getting Started
 
-## Reminders
+To use this script, you'll need to have Python installed on your machine. You'll also need to create a Google Sheets spreadsheet and obtain the necessary credentials to access it via the Google Sheets API.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+### Prerequisites
 
-## Creating the Heroku app
+- Python 3.x
+- Google Sheets API credentials (`creds.json`)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### Installing
 
-1. `heroku/python`
-2. `heroku/nodejs`
+1. Clone the repository to your local machine:
+git clone https://github.com/your_username/course-information-update.git
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+2. Install the required Python packages:
+pip install gspread oauth2client
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+### Usage
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+1. Run the Python script:
