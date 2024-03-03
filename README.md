@@ -13,12 +13,22 @@ To use this script, you'll need to have Python installed on your machine. You'll
 
 ### Installing
 
-1. Clone the repository to your local machine:
-git clone https://github.com/felipesimao1/Study_Calc_GSheet.git
+```bash
+# Clone the repository to your local machine
+git clonehttps://github.com/felipesimao1/Study_Calc_GSheet.git
 
-2. Install the required Python packages:
+# Install the required Python packages
 pip install gspread oauth2client
+```
 
-### Usage
+Follow the on-screen prompts to input the course information. The script will update the Google Sheets spreadsheet with the provided information and display the estimated time required to complete all courses.
 
-1. Run the Python script:
+### Features
+- *Easy Course Management:* Users can easily input course information, including the course name, total hours, and study hours per week.
+- *Automatic Spreadsheet Update:* The script automatically updates a Google Sheets spreadsheet with the provided course information.
+- *Time Estimation:* The script calculates the total time required to complete all courses based on the user's study schedule.
+
+### Use Cases
+- *Student Course Management:* Students can use this script to keep track of their courses and study schedules in a centralized spreadsheet.
+- *Training Program Management:* Organizations offering training programs can use this script to manage course details and provide participants with estimated completion times.
+- *Personal Development Tracking:* Individuals pursuing personal development goals can use this script to organize their learning activities and track their progress over time.
